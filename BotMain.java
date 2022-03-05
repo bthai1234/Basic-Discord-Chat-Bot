@@ -18,6 +18,10 @@ public class BotMain extends ListenerAdapter {
         if(msg.getContentRaw().equals("!info")){
             channel.sendMessage("Author: Ben Thai \nBot: v0.1").queue();
         }
+        
+        if(msg.getContentRaw().equals("!Hello")){
+            channel.sendMessage("Hello").queue();
+        }
 
     }
 
